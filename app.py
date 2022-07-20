@@ -32,10 +32,6 @@ def init():
         return(render_template("index.html", result="WAITING"))
 if __name__ == "__main__":
     app.run()
-#尽量使用numpy而不是CV2，因为网页前端用cv实在是太慢了太大了
-
-
-# In[ ]:
 
 
 
